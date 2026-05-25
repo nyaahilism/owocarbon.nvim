@@ -205,7 +205,7 @@ vim.api.nvim_set_hl(0, "VertSplit", { fg = oxocarbon.base01, bg = oxocarbon.base
 vim.api.nvim_set_hl(0, "WinSeparator", { fg = oxocarbon.base01, bg = oxocarbon.base00 })
 vim.api.nvim_set_hl(0, "Boolean", { fg = oxocarbon.base09, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "Character", { fg = oxocarbon.base14, bg = oxocarbon.none })
-vim.api.nvim_set_hl(0, "Comment", { fg = oxocarbon.base16, bg = oxocarbon.none, italic = true })
+vim.api.nvim_set_hl(0, "Comment", { fg = oxocarbon.base16, bg = oxocarbon.none, italic = false })
 vim.api.nvim_set_hl(0, "Conceal", { fg = oxocarbon.none, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "Conditional", { fg = oxocarbon.base09, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "Constant", { fg = oxocarbon.base04, bg = oxocarbon.none })
