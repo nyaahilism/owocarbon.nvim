@@ -314,19 +314,16 @@ vim.api.nvim_set_hl(0, "MarkviewHeading6", { fg = "#fc666d", bg = "#442635" }) -
 vim.api.nvim_set_hl(0, "MarkviewHeading6Sign", { fg = "#fc666d" })
 vim.api.nvim_set_hl(0, "MarkviewPalette6Fg", { fg = "#fc666d" })
 
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteDefault", { fg = "#9da6f9" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteNote", { fg = "#78a9ff" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteOk", { fg = "#82cfff" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteWarn", { fg = "#ff8fb8" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteError", { fg = "#ff9e8f" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteSpecial", { fg = "#3ddbd9" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteExtra", { fg = "#80fcc4" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteHead", { fg = "#f53c43" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteHead2", { fg = "#0f62fe" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteHead3", { fg = "#6d60b7" })
-vim.api.nvim_set_hl(0, "MarkviewBlockQuoteSubhead", { fg = "#9da6f9" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteDefault", { fg = "#7690FF" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteNote", { fg = "#8265FF" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteOk", { fg = "#1691FD" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteWarn", { fg = "#FF6B9D" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteError", { fg = "#ED1965" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteSpecial", { fg = "#04D1F9" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteExtra", { fg = "#FFD68F" })
+vim.api.nvim_set_hl(0, "MarkviewBlockQuoteSubhead", { fg = "#1769FF" })
 
-vim.api.nvim_set_hl(0, "MarkviewListItemPlus", { fg = "#d34daf" })  --#8f57ff #916cff
+vim.api.nvim_set_hl(0, "MarkviewListItemPlus", { fg = "#de2daf" })  --#8f57ff #916cff
 vim.api.nvim_set_hl(0, "MarkviewListItemMinus", { fg = "#1badaf" })         --
 vim.api.nvim_set_hl(0, "MarkviewListItemStar", { fg = "#deface" })
 
